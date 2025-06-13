@@ -28,7 +28,7 @@
         <RepositoryUrl>https://github.com/netblueprints/BuildingBlocks.Application</RepositoryUrl>
         <PackageTags>Application Layer;CQRS;MediatR;FluentValidation;AutoMapper;Pagination;Result;Authorization;NetBlueprints;Clean Architecture;Reusable Components</PackageTags>
         <PackageIcon>icon.jpg</PackageIcon>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
     </PropertyGroup>
 
