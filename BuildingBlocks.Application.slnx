@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NetBlueprints.BuildingBlocks.Application/NetBlueprints.BuildingBlocks.Application.csproj" Id="acbe550f-63fa-4674-a215-3e5f05e9f2e9" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NetBlueprints.BuildingBlocks.Application.tests/NetBlueprints.BuildingBlocks.Application.tests.csproj" Id="e3d01b0e-7909-4783-b7e1-82bffd502c28" />
+  </Folder>
+</Solution>

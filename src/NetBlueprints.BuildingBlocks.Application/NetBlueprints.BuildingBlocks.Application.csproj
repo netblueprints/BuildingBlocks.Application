@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="14.0.0" />
+        <PackageReference Include="FluentValidation" Version="12.0.0" />
+        <PackageReference Include="MediatR" Version="12.5.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.6" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <AssemblyName>NetBlueprints.BuildingBlocks.Application</AssemblyName>
+        <PackageId>NetBlueprints.BuildingBlocks.Application</PackageId>
+        <Title>NetBlueprints.BuildingBlocks.Application</Title>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>NetBlueprints</Authors>
+        <Company>NetBlueprints</Company>
+        <Description>A set of reusable building blocks for implementing the Application layer in .NET solutions, following Clean Architecture and CQRS principles.</Description>
+        <Summary>A set of reusable building blocks for the Application layer in .NET applications</Summary>
+        <PackageProjectUrl>https://github.com/netblueprints/BuildingBlocks.Application</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/netblueprints/BuildingBlocks.Application</RepositoryUrl>
+        <PackageTags>Application Layer;CQRS;MediatR;FluentValidation;AutoMapper;Pagination;Result;Authorization;NetBlueprints;Clean Architecture;Reusable Components</PackageTags>
+        <PackageIcon>icon.jpg</PackageIcon>
+        <Version>1.0.0</Version>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+		<None Include="icon.jpg" Pack="true" Visible="false" PackagePath="" />
+	</ItemGroup>
+
+</Project>
